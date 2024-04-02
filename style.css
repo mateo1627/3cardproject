@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+body {
+    margin:0;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+align-items: center;
+justify-content: center;
+   
+margin-top: 50px;
+
+}
+
+
+.card{
+    font-family: "Lexend Deca";
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+  
+    
+}
+
+.sedans {
+    background-color: #a50;
+   border-radius:10px 0 0 10px;
+    
+}
+.SUVs {
+background-color: #2a696e;
+}
+.luxury {
+    background-color: #013921aa;
+    border-radius:0 10px 10px 0;
+}
+.uno {
+    color:#a50;
+
+}
+.dos {
+color: #2a696e;
+}
+.tres {
+    color: #013921aa;
+}
+p {
+    margin: 40px;
+}
+
+span {
+  align-self: flex-end;
+background-color: #fff;
+border-radius: 50px;
+padding: 10px 25px 10px 25px;
+margin-left: 20pxg;
+}
